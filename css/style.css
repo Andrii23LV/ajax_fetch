@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button-load {
+    background-color: rgb(48, 173, 142);
+    color: white;
+    padding: 0.65rem 1.65rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.lists {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.list {
+    border: 2px solid rgb(196, 194, 194);
+    width: 100%;
+    min-height: 400px;
+    margin: 5%;
+}
+
+.button-load:hover {
+    background-color: rgb(33, 115, 95);
+    position: relative;
+    top: 1px;
+}
+
+.username {
+    background-color: rgb(230, 230, 230);
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    padding: 10px 0;
+}
+.username p{
+    margin: 0px;
+}
+
+#edit {
+    color: white;
+    background-color: rgb(22, 137, 199);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#delete {
+    color: white;
+    background-color: rgb(146, 10, 64);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#input {
+    height: 20px;
+}
+
+#save {
+    background-color: rgb(48, 173, 142);
+    color: white;
+    padding: 5px 20px;
+    margin: 5px 0;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 0;
+    margin: 0;
+    transform: translate(50%, 50%);
+}
